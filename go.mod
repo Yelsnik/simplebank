@@ -1,6 +1,6 @@
 module github.com/Yelsnik/simplebank
 
-go 1.22.4
+go 1.23
 
 require (
 	github.com/jackc/pgx/v5 v5.6.0
