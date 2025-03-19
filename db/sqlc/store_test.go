@@ -36,7 +36,6 @@ func TestTransferTx(t *testing.T) {
 	}
 
 	// check result
-
 	existed := make(map[int]bool)
 
 	for i := 0; i < n; i++ {

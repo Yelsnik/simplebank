@@ -216,9 +216,7 @@ func TestCreateAccountApi(t *testing.T) {
 		{
 			name: "OK",
 			body: gin.H{
-				"owner":    account.Owner,
 				"currency": account.Currency,
-				"balance":  0,
 			},
 			setupAuth: func(t *testing.T, request *http.Request, tokenMaker token.Maker) {
 				addAuthorization(t, request, tokenMaker, authorizationTypeBearer, user.Username, time.Minute)

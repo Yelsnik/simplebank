@@ -10,4 +10,4 @@ sql:
         emit_interface: true
         emit_empty_slices: true
         out: "./db/sqlc"
-        sql_package: "pgx/v5"
+        
